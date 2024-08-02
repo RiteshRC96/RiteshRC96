@@ -1,8 +1,10 @@
+package RiteshRC96;
+
 class ShortestDistance{
     public static void main(String[] args) {
-        String a = "wneesw";
+        String a = "wneew";
 
-        FindDistance(a, 5,6);
+        System.out.println(FindDistance(a,0,0));
         
     }
     public static int FindDistance(String a ,int pt1, int pt2){
@@ -35,9 +37,7 @@ class ShortestDistance{
         int dis1 = d1 * d1;
         int dis2 = d2 * d2;
 
-        int dis = dis2 + dis1 ;
-
-        int distance = (int) Math.sqrt(dis);
+        int distance = (int) Math.sqrt(dis1 + dis2);
 
         return distance;
 
