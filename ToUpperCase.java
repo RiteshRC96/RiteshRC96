@@ -6,8 +6,6 @@ public class ToUpperCase {
     public static void main(String[] args) {
         String str = "ritesh ramprakash chougule";
         ToUppercase(str);
-
-        
     }
 
     public static void ToUppercase(String str){
