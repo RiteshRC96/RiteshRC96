@@ -1,4 +1,3 @@
-package RiteshRC96;
 
 class ShortestDistance{
     public static void main(String[] args) {
