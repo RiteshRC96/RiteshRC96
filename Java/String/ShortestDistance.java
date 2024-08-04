@@ -2,7 +2,7 @@
 class ShortestDistance{
     public static void main(String[] args) {
         String a = "wneew";
-
+        a.substring(0, 0);
         System.out.println(FindDistance(a,0,0));
         
     }
