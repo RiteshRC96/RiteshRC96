@@ -3,7 +3,10 @@ public class AddBinary {
 
         String a = "1101";
         String b = "1011";
-        System.out.println("Sum: " + addBinary(a, b));
+
+        String arr[] = {"1", "10", "11"};
+        addNnumbers(arr);
+        //System.out.println("Sum: " + addBinary(a, b));
         
     }
 
@@ -31,6 +34,14 @@ public class AddBinary {
             result.append(carry);
         }
         return result.reverse().toString();
+    }
+
+    public static void addNnumbers(String arg[]){
+        String result = "0";
+        for (int i = 0; i < arg.length; i++) {
+            result = addBinary(result, arg[i]);
+        }
+        System.out.println(result);
     }
 }
 
