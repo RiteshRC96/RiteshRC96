@@ -1,12 +1,13 @@
 public class AddBinary {
     public static void main(String[] args) {
 
-        String a = "1101";
-        String b = "1011";
+        //String a = "1101";
+        //String b = "1011";
+        //System.out.println("Sum: " + addBinary(a, b));
 
         String arr[] = {"1", "10", "11"};
         addNnumbers(arr);
-        //System.out.println("Sum: " + addBinary(a, b));
+        
         
     }
 
