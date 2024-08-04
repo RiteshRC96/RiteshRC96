@@ -12,32 +12,25 @@ public class AddBinary {
 
         int i = a.length() - 1;
         int j = b.length() - 1;
-        int carry = 0;
+        int carry = 0;  
 
         while (i >= 0 || j >= 0) {
             int sum = carry;
             if (i >= 0) {
-                sum += a.charAt(i) - '0'; // Convert char to int
+                sum += a.charAt(i) - '0'; 
                 i--;
             }
             if (j >= 0) {
-                sum += b.charAt(j) - '0'; // Convert char to int
+                sum += b.charAt(j) - '0'; 
                 j--;
             }
-
-            // Add the sum's least significant bit to the result
             result.append(sum % 2);
-
-            // Update carry
             carry = sum / 2;
         }
-
-        // If carry is left, append it
         if (carry != 0) {
             result.append(carry);
         }
-
-        // Reverse the result to get the correct order
         return result.reverse().toString();
     }
 }
+
