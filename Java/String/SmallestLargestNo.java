@@ -6,7 +6,7 @@ public class SmallestLargestNo {
         
     }  
     public static void SmallAndLagge(String str){
-        String s[] = str.split(" ");
+        String s[] = str.split(" ");    
         int max = 0;
         String result="";
         for (int i = 0; i < s.length; i++) {
