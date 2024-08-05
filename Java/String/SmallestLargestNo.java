@@ -30,5 +30,6 @@ public class SmallestLargestNo {
 
         }
         System.err.println(result);
+        System.err.println(minResult);
 }
 }
