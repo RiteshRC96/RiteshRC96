@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class SmallestLargestNo {
     public static void main(String[] args) {
         String str = "Ritesh Ramprakash Chougule Tardal";
