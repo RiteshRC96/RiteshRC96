@@ -17,8 +17,6 @@ public class SmallestLargestNo {
                 result = s[i];
              }
         }
-
-        //max =13
         int min =max;
         String minResult="";
         for (int i = 0; i < s.length; i++) {
