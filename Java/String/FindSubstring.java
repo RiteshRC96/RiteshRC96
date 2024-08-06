@@ -5,7 +5,7 @@ public class FindSubstring {
         System.out.println(search(str, sub));
 
     }
-    public static String search(String X, String Y) {
+    public static String /*int */ search(String X, String Y) {
         StringBuilder sb = new StringBuilder();
         //int result = -1;
         for(int i=0; i<X.length() - Y.length()+1; i++){
