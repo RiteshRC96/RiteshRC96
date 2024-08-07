@@ -35,7 +35,7 @@ public class EquilibriumPoint {
             totalSum = totalSum - arr[i]; //act as the right sum
             
             if (leftSum == totalSum) {
-                return i+1;
+                return i; // it returns the index of the equilibrium point 
             }
             leftSum = leftSum + arr[i];
         }
