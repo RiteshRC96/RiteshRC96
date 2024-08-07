@@ -1,6 +1,8 @@
+
+
 public class FIndMaxCar {
     public static void main(String[] args) {
-        String str = "SSXSSSXSS";
+        String str = "SSXSSSXS";
         System.out.println(Car(str));
         
     }
@@ -12,6 +14,6 @@ public class FIndMaxCar {
                 count ++;
             }
         }
-        return count;
+        return count*2;
     }
 }
