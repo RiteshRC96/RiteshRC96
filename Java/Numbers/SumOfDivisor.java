@@ -4,7 +4,6 @@ public class SumOfDivisor {
     public static void main(String[] args) {
         System.out.println(Sum(6));
         //1+2+3+6 = 12
-        
     }
 
     public static int Sum(int num){
@@ -16,5 +15,4 @@ public class SumOfDivisor {
         }
         return sum;
     }
-
 }
