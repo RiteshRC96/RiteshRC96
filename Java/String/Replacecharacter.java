@@ -6,17 +6,29 @@ public class Replacecharacter {
     }
 
     public static String Replace(String str, char ch1, char ch2){
-        char arr[] = str.toCharArray();
-        for (int i = 0; i < str.length(); i++) {
-             if(arr[i] == ch1){
-                arr[i] = ch2;
-            }  
-            else if(arr[i] == ch2){
-                arr[i] = ch1;
-            }          
-        }
+        // char arr[] = str.toCharArray();
+        // for (int i = 0; i < str.length(); i++) {
+        //      if(arr[i] == ch1){
+        //         arr[i] = ch2;
+        //     }  
+        //     else if(arr[i] == ch2){
+        //         arr[i] = ch1;
+        //     }          
+        // }
 
-        str = new String(arr);
-        return str;
+        // str = new String(arr);
+        // return str;
+
+        // new approch:-
+
+        for (int i = 0; i < str.length(); i++) {
+                if(str.charAt(i)== 'a'){
+                    str = str.replace('a', 'b');
+                }  
+                else if(str.charAt(i)== 'b'){
+                    str = str.replace('b', 'a');
+                }          
+            }
+            return str;
     }
 }
