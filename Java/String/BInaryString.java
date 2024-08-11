@@ -1,5 +1,3 @@
-package RiteshRC96.Java.String;
-
 public class BInaryString {
     public static void main(String[] args) {
         System.out.println(Calculate("1c0b1a1"));
