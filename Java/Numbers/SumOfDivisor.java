@@ -1,5 +1,4 @@
 package RiteshRC96.Java.Numbers;
-
 public class SumOfDivisor {
     public static void main(String[] args) {
         System.out.println(Sum(6));
